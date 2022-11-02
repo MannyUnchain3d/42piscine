@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   gen.c                                              :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: csantivi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/22 16:41:00 by csantivi          #+#    #+#             */
-/*   Updated: 2022/01/23 20:45:50 by tkhotcha         ###   ########.fr       */
+/*   Updated: 2022/11/02 22:49:59 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
-#include<unistd.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 int		is_not_work(int argc, char **argv, int input[16]);
 
