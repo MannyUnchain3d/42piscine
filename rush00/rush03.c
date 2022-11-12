@@ -6,10 +6,11 @@
 /*   By: strihan <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/16 05:44:55 by strihan           #+#    #+#             */
-/*   Updated: 2022/01/16 22:44:26 by kwoowong         ###   ########.fr       */
+/*   Updated: 2022/11/12 14:58:37 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<unistd.h>
+
+#include <unistd.h>
 
 void	ft_putchar(char c);
 

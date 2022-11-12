@@ -6,12 +6,12 @@
 /*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/16 06:51:00 by strihan           #+#    #+#             */
-/*   Updated: 2022/11/12 13:57:31 by Manny            ###   ########.fr       */
+/*   Updated: 2022/11/12 14:52:58 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+//#include <unistd.h>
+//#include <stdio.h>
 
 void	rush(int x, int y);
 
