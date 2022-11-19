@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: etetopat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 00:42:51 by etetopat          #+#    #+#             */
-/*   Updated: 2022/01/31 00:57:41 by etetopat         ###   ########.fr       */
+/*   Updated: 2022/11/19 18:31:06 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	ft_atoi(char *str);
 
 int	main(void)
 {
-	char	*str = "   ---+--+1234ab567";
+	char	*str;
+
+	str = "   ---+--+1234ab567";
 	printf("%d\n", ft_atoi(str));
 }

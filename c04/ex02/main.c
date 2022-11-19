@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: etetopat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/30 17:56:26 by etetopat          #+#    #+#             */
-/*   Updated: 2022/01/30 18:08:22 by etetopat         ###   ########.fr       */
+/*   Updated: 2022/11/19 18:12:47 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putnbr(int nb);
 int	main(void)
 {
 	ft_putnbr(42);
-	ft_putnbr(-42;
+	ft_putnbr(-42);
 	ft_putnbr(0);
 	ft_putnbr(-2147483648);
 }
