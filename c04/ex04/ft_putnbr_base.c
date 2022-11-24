@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_base.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: etetopat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 01:01:18 by etetopat          #+#    #+#             */
-/*   Updated: 2022/01/31 22:48:12 by etetopat         ###   ########.fr       */
+/*   Updated: 2022/11/24 11:09:04 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int	check_invalid_arg(char *str)
 		j = i + 1;
 		while (j < ft_strlen(str))
 		{
-			if (str[i] == str [j])
+			if (str[i] == str[j])
 				return (0);
 			j++;
 		}
