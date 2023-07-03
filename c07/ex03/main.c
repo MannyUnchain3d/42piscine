@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: etetopat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/03 16:51:30 by etetopat          #+#    #+#             */
-/*   Updated: 2022/02/03 17:18:33 by etetopat         ###   ########.fr       */
+/*   Updated: 2023/07/03 19:07:36 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,4 @@ int	main(int argc, char *argv[])
 	printf("%s\n", result);
 	free(result);
 	return (0);
-}	
+}

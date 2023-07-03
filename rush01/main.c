@@ -6,7 +6,7 @@
 /*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/22 16:41:00 by csantivi          #+#    #+#             */
-/*   Updated: 2022/11/02 22:49:59 by Manny            ###   ########.fr       */
+/*   Updated: 2023/01/23 16:21:46 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	input = malloc(16 * sizeof(int));
-	if (is_not_work (argc, argv, input) == 1)
+	if (is_not_work(argc, argv, input) == 1)
 		return (0);
 	i = 0;
 	while (i < 4)
@@ -66,5 +66,6 @@ int	main(int argc, char **argv)
 		display(tab);
 	else
 		write(1, "Error\n", 6);
+	free(input);
 	return (0);
 }
