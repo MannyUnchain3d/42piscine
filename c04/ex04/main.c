@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: etetopat <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 21:31:28 by etetopat          #+#    #+#             */
-/*   Updated: 2022/01/31 22:27:34 by etetopat         ###   ########.fr       */
+/*   Updated: 2023/07/24 12:35:07 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,4 @@ int	main(void)
 	ft_putnbr_base(42, "poneyvif");
 	printf("\n");
 	ft_putnbr_base(42, "-");
-}	
+}
