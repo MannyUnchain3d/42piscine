@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_before_start.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tkhotcha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/23 17:25:24 by tkhotcha          #+#    #+#             */
-/*   Updated: 2022/01/23 20:45:21 by tkhotcha         ###   ########.fr       */
+/*   Updated: 2023/07/24 12:22:24 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int	*translate(char **argv, int input[16])
 	return (input);
 }
 
-int	is_not_work(int argc, char **argv, int input[16])
+int	check_before_start(int argc, char **argv, int input[16])
 {
 	if (argc != 2 || !check_input(argv))
 	{

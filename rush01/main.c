@@ -6,14 +6,14 @@
 /*   By: Manny <etetopat@student.42bangkok.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/22 16:41:00 by csantivi          #+#    #+#             */
-/*   Updated: 2023/01/23 16:21:46 by Manny            ###   ########.fr       */
+/*   Updated: 2023/07/24 12:23:28 by Manny            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <unistd.h>
 
-int		is_not_work(int argc, char **argv, int input[16]);
+int		check_before_start(int argc, char **argv, int input[16]);
 
 int		calculate(int tab[4][4], int input[16], int pos);
 
@@ -49,7 +49,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	input = malloc(16 * sizeof(int));
-	if (is_not_work(argc, argv, input) == 1)
+	if (check_before_start(argc, argv, input) == 1)
 		return (0);
 	i = 0;
 	while (i < 4)
